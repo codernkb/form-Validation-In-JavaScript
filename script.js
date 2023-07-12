@@ -15,7 +15,7 @@ function formValidation() {
         return false
     } else if (!x.match(Namex)) {
         document.getElementById('nameerror').style="color:white; text-shadow: 3px 3px 5px red; font-size:18px;"
-        document.getElementById('nameerror').innerHTML="*Please Enter Character only"
+        document.getElementById('nameerror').innerHTML="*Please Enter Valid First and Last Name"
         document.getElementById('name').focus()
         return false
     } else {
