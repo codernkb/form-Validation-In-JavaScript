@@ -27,7 +27,7 @@ function formValidation() {
     var x = document.getElementById("email").value;
     if (x ==""){
         document.getElementById('emailerror').style="color:white; text-shadow: 3px 3px 5px red; font-size:18px;"
-        document.getElementById('emailerror').innerHTML="*Please select Email Id"
+        document.getElementById('emailerror').innerHTML="*Please Enter Email Id"
         document.getElementById('email').focus()
         return false
     } else if (!x.match(Emailx)) {
