@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Form Validation</title>
+</head>
+<body>
+    <form id="form" >
+        <h1 id="contact">Contact Us</h1>
+        <p id="contactdes">Welcome! to Our Website. We are here to help you, Please fill the form below to Contact us.</p>
+        <span id="nameerror"></span><br><input type="text" id="name" placeholder="Your Full Name" ><br>
+        <span id="emailerror"></span><br><input type="email" id="email" placeholder="Your Mail"><br>
+        <span id="numbererror"></span><br><input type="text" id="mobile" placeholder="Your Mobile Number"><br>
+        <span id="messageerror"></span><br><textarea id="message" placeholder="Your Message"></textarea><br>
+        <input type="submit" id="btn" onclick="return formValidation()" value="Submit &#x2192;" >
+    </form> 
+</body>
+</html>
